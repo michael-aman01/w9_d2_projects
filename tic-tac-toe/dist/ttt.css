@@ -1,0 +1,17 @@
+#grid{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+#grid .cell {
+    border: 1px solid black;
+    width: 150px;
+    list-style: none;
+    margin: 0;
+}
+
+#grid .cell:hover {
+    background-color: yellow;
+} 

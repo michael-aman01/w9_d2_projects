@@ -22,7 +22,7 @@ class Clock {
     const timeString = [this.hours, this.minutes, this.seconds].join(":");
 		const clockTag = document.getElementById("clock")
 
-    // Use console.log to print it.
+    //add time to html
     htmlGenerator(timeString, clockTag);
   }
 
